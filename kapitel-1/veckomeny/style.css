@@ -1,0 +1,27 @@
+body {
+background-color: #f9dddd;
+}
+caption {
+    padding: 30px;
+    font-size: 50px;
+    background-image: url("/bilder/images\ \(1\).jpg")
+}
+table {
+background-color: pink;
+width: 1400px;
+}
+tr {
+
+}
+th {
+padding: 20px;
+font-size: 30px;
+}
+td {
+background-color: #fff;
+padding: 10px;
+}
+img {
+    width: 250px;
+    height: 250px;
+}
