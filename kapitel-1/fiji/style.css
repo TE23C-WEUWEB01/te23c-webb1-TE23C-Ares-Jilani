@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    background-image: url(./bilder/frank-mckenna-OD9EOzfSOh0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-family: "Lobster", sans-serif;
+    font-size: 100px;
+    color: #5bf1ff;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 0 #ff0066;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+h2 {
+    font-family: "Lobster", sans-serif;
+    font-size: 50px;
+    color: #5bf1ff;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 0 #ff0066;
+    margin-top: 75px;
+    margin-left: 100px;
+
+}
+
+p {
+    font-family: "Lobster", sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    margin-top: 150px;
+    margin-left: 600px;
+
+}
+
+a {
+    font-family: "Lobster", sans-serif;
+    color: #004669;
+    text-decoration: none;
+    background-color: #ff7fb2;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #ff7fb2;
+}
