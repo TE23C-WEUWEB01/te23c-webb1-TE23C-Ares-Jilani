@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&display=swap');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+background-image: url(./bilder/Design-sans-titre-75.png);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+div
+{
+background-image:url(./bilder/chinigraphy-CdEhjEF1C4M-unsplash.jpg) ;
+background-size: cover;
+width: 380px;
+height: 275px;
+padding-top: 40px;
+padding-left: 24px;
+margin-top: 100px;
+margin-left: 640px;
+border-radius: 15px;
+box-shadow: 5px 2px 100px #00a8ab;
+}
+h1
+{
+    font-family: "Foldit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+}
+h2
+{
+    font-family: "Foldit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    padding-top: 15px;
+}
+p
+{
+    font-family: "Foldit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    padding-top: 10px;
+}
