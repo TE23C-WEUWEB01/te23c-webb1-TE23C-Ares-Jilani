@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+/* Layoutens utseende */
+div {
+ width: 600px;
+ background-color: #eae09ce8;
+ margin: auto;
+ margin-top: 50px;
+ border: 10px solid #70604c;
+ border-radius: 20px;
+ padding: 50px;
+ font-family: "Permanent Marker", cursive;
+ color: #70604c;
+}
+body {
+background-image: url("./bilder/mae-mu-kID9sxbJ3BQ-unsplash.jpg");
+background-size: cover;
+background-position: 0px -400px;
+background-attachment: fixed;
+}
+/* innehållets utseende */
+h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px;
+}
+h2 {
+    margin-bottom: 15px;
+}
+img {
+    margin-bottom: 15px;
+}
+p {
+    margin-bottom: 10px;
+}
+ul {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    list-style-type: circle;
+}
+li{
+    margin-bottom: 10px;
+}
