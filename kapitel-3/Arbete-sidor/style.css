@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Kay+Pho+Du:wght@400;500;600;700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kay+Pho+Du:wght@400;500;600;700&family=Permanent+Marker&display=swap');
+body.sida1 {
+background-image: url(./bilder/pattern-1097338_640.jpg);
+}
+body.sida2 {
+background-image: url(./bilder/seamless-pattern-1085285_640.jpg);
+}
+body.sida3 {
+    background-image: url(./bilder/flowers-3340913_640.png);
+}
+body.sida4 {
+    background-image: url(./bilder/seamless-1315291_640.jpg);
+}
+body.sida5 {
+    background-image: url(./bilder/flowers-8255934_640.png);
+}
+body.sida6 {
+    background-image: url(./bilder/pattern-1004855_640.jpg);
+}
+div {
+background-color: aliceblue;
+width: 400px;
+margin: auto;
+margin-top: 100px;
+border: 5px dashed #282828;
+padding: 20px;
+}
+h1 {
+    font-family: "Kay Pho Du", serif;
+}
+p {
+    font-family: "Lobster Two", sans-serif;
+    font-size: 20px;
+}
+a {
+    font-size: 40px;
+    text-decoration: none;
+    color: #ff687a;
+}
