@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Poiret+One&display=swap');
+/* Sidans bakgrund */
+body {
+    background-color: #000;
+}
+
+/* Kontainern utseende */
+.kontainer {
+    background-color: #a0b1bf;
+    width: 800px;
+    padding: 50px;
+    margin: auto;
+}
+h1 {
+    font-family: "Major Mono Display", monospace;
+    font-size: 63px;
+    text-align: center;
+}
+h2 {
+    font-size: 30px;
+    font-family: "Major Mono Display", monospace;
+    text-align: center;
+}
+
+/* Boxarnas utseende */
+.bild {
+   background-color: #000;
+   color: #fff; 
+   padding: 50px;
+   margin-bottom: 50px;
+   border-radius: 20px;
+   font-family: "Major Mono Display", monospace;
+}
+img {
+    width: 100%;
+}
+h3 {
+    
+}
+p{}
+a{}
