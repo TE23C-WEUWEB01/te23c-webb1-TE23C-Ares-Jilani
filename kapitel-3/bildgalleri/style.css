@@ -1,4 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Poiret+One&display=swap');
+
+/* Enkel CSS-reset */
+html {
+   box-sizing: border-box;
+}
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+   margin: 0;
+   padding: 0;
+}
+
 /* Sidans bakgrund */
 body {
     background-color: #000;
@@ -15,11 +28,13 @@ h1 {
     font-family: "Major Mono Display", monospace;
     font-size: 63px;
     text-align: center;
+    margin-bottom: 20px;
 }
 h2 {
     font-size: 30px;
     font-family: "Major Mono Display", monospace;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 /* Boxarnas utseende */
@@ -30,12 +45,18 @@ h2 {
    margin-bottom: 50px;
    border-radius: 20px;
    font-family: "Major Mono Display", monospace;
+   display: flex;
+   flex-direction: row-reverse;
+   gap: 20px;
 }
 img {
-    width: 100%;
+    width: 200px;
+    height: 200px;
+    border: 4px solid #b0b0b0;
+    border-radius: 50%;
 }
 h3 {
-    
+    margin-bottom: 20px;
 }
 p{}
 a{}
