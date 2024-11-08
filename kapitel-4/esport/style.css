@@ -14,40 +14,53 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 
 /* Layouten */
 body {
-    background-color: #9264C7;
+   background-color: #9264C7;
 }
+
 .kontainer {
-font-family: "Geostar", serif;
- width: 800px;
- margin: auto;
- padding: 40px;
- background-color: #E2DAF0;
+   font-family: "Geostar", serif;
+   width: 800px;
+   margin: auto;
+   padding: 40px;
+   background-color: #E2DAF0;
 }
+
+.kolumner {
+   display: flex;
+   gap: 50px;
+}
+
 .bild {
-background-color: #5A5A5A;
-color: #fff;
-padding: 20px;
+   background-color: #5A5A5A;
+   color: #fff;
+   padding: 20px;
+   margin-bottom: 30px;
+   display: flex;
+   gap: 30px;
+   border-radius: 10px;
 }
 
 /* Rubriker */
 h1 {
-    font-family: "Megrim", system-ui;
-    font-size: 75px;
-}
-h2 {
+   font-family: "Megrim", system-ui;
+   font-size: 75px;
+   margin-bottom: 10px;
 
+}
+
+h2 {
+   margin-bottom: 20px;
 }
 
 /* sidans innehåll */
 img {
- width: 200px;
+   width: 100px;
+   border: solid 3px;
+   border-radius: 10px;
 }
-.bildtext {
-    
-}
-.thanks {
 
-}
-a {
+.bildtext {}
 
-}
+.thanks {}
+
+a {}
