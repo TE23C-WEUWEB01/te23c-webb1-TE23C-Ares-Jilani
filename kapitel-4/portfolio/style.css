@@ -1,5 +1,4 @@
 
-
 /* Enkel CSS-reset */
 html {
    box-sizing: border-box;
@@ -14,5 +13,48 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 
 /* Layouten */
 body {
-    
+    background-color: #624a37;
+}
+
+/* div boxar */
+.kontainer {
+   background-color: #e3d6b1;
+   width: 800px;
+   margin: auto;
+   padding: 50px;
+}
+.tophalf {
+   display: flex;
+}
+.aboutme {
+   margin-left: 100px;
+}
+.bottomhalf {
+   display: flex;
+}
+.leftbottom {
+
+}
+.rightbottom {
+   margin-left: 400px;
+}
+
+/* rubriker */
+h1 {
+   font-size: 85px;
+   margin-left: 90px;
+}
+h2 {
+   font-size: 50px;
+}
+h3 {
+
+}
+h4 {
+
+}
+
+/* sidans innehål */
+img {
+   
 }
