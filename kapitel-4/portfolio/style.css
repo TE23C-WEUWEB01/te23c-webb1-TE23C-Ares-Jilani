@@ -33,7 +33,7 @@ body {
    display: flex;
 }
 .leftbottom {
-
+width: 800px;
 }
 .rightbottom {
    margin-left: 400px;
@@ -56,5 +56,5 @@ h4 {
 
 /* sidans innehål */
 img {
-   
+   width: 300px;
 }
