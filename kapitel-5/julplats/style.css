@@ -19,6 +19,7 @@ body {
     padding: 20px;
     margin: auto;
     background-color: #AD2831;
+    height: 670px;
 }
 
 /* Menyns utseende */
@@ -51,7 +52,9 @@ h1 {
 
 }
 img {
-    width: 500px;
+    border-radius: 10px;
+    border: solid 5px #f4e9dc;
+    width: 300px;
     display: block;
     margin: auto;
     margin-top: 20px;
