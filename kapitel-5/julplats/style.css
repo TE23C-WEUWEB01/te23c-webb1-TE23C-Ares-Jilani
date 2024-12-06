@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
 /* Enkel CSS-reset */
 html {
    box-sizing: border-box;
@@ -12,14 +14,15 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 
 /* Layouten */
 body {
-    background-color: #190000;
+    background-color: #751717;
+    background-image: url(https://img1.picmix.com/output/stamp/normal/0/0/5/7/1087500_bfe7a.gif);
 }
 .kontainer {
     width: 800px;
     padding: 20px;
     margin: auto;
-    background-color: #AD2831;
-    height: 670px;
+    background-color: #BA0C0C;
+    height: 800px;
 }
 
 /* Menyns utseende */
@@ -32,36 +35,43 @@ body {
 }
 .kontainer ul a {
     text-decoration: none;
-    background-color: #652331;
+    background-color: #27A300;
     padding: 10px;
     width: 130px;
     display: inline-block;
     border-radius: 3px;
     text-align: center;
-    box-shadow: 3px 3px 0 #2e1d1d;
+    box-shadow: 3px 3px 0 #005C00;
 }
 .kontainer ul .aktiv {
-    background-color: #38040E;
+    background-color: #2D661B;
 }
 .kontainer ul a:hover {
-    background-color: #6c091d;
+    background-color: #003800;
 }
 
 /* Innehållet */
 h1 {
-
+    font-family: "Pinyon Script", cursive;
 }
 img {
     border-radius: 10px;
-    border: solid 5px #f4e9dc;
     width: 300px;
     display: block;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
+}
+figure {
+    background-color: #f5dede;
+    padding: 50px;
+}
+figcaption {
+    font-family: "Mountains of Christmas", serif;
 }
 p {
 
 }
 .tack {
-
+    font-family: "Mountains of Christmas", serif;
 }
