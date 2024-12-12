@@ -9,3 +9,58 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
    margin: 0;
    padding: 0;
 }
+
+body {
+    
+}
+.kontainer {
+    Width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffea00;
+}
+
+.kontainer fieldset {
+    background-color: #cf0000;
+    padding: 20px;
+    border: 10px solid #d8c600;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+}
+.kontainer legend {
+    font-size: 22px;
+}
+.kontainer input {
+    font-family:'Courier New', Courier, monospace;
+    padding: 5px;
+    color: blueviolet;
+    border: none;
+    border-radius: 5px;
+}
+.kontainer select {
+    padding: 5px;
+    color: blueviolet;
+    border: none;
+    border-radius: 5px;
+}
+.kontainer textarea {
+    padding: 5px;
+    color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    height: 100px;
+}
+.kontainer button {
+    background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+}
+.kontainer button:hover {
+    background: linear-gradient(to bottom, #eab92d 0%,#c79810 100%);
+}
