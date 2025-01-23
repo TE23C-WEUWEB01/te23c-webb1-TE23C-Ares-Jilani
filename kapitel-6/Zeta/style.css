@@ -1,0 +1,53 @@
+/* Enkel CSS-reset */
+html {
+   box-sizing: border-box;
+}
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+   margin: 0;
+   padding: 0;
+}
+
+/* Sidlayouten */
+
+body {
+    background-image: url(https://karye.gitlab.io/weuweb01/images/image-134.jpg);
+    background-color: #fff;
+}
+
+.kontainer {
+    width: 1200px;
+    margin: auto;
+    color: #020202;
+}
+
+.Meny {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: #fff;
+}
+
+.kontainer a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+.sida {
+    background-color: #fff;
+}
+
+.rutor {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 500px;
+
+}
+
+.produkt img {
+    width: 250px;
+}
