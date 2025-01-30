@@ -13,7 +13,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 /* Sidlayouten */
 
 body {
-    background-image: url(https://karye.gitlab.io/weuweb01/images/image-134.jpg);
+    background-image: url(https://karye.gitlab.io/weuweb01/images/image-141.jpg);
     background-color: #fff;
 }
 
@@ -23,21 +23,38 @@ body {
     color: #020202;
 }
 
-.Meny {
+.meny {
+    margin-left: 75px;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    align-items: center;
+    padding: 20px 10px;
+    gap: 1px;
+    margin-bottom: 10px;
     color: #fff;
 }
 
-.kontainer a {
+.meny a {
     text-decoration: none;
     color: #fff;
-    padding: 10px;
+}
+
+.kontainer img {
+    width: 180px;
 }
 
 .sida {
     background-color: #fff;
+    padding: 20px;
+}
+
+.sida h2 {
+    font-size: 45px;
+    text-align: center;
+}
+
+.sida p {
+    text-align: center;
 }
 
 .rutor {
@@ -45,9 +62,11 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     height: 500px;
-
 }
 
+.produkt {
+    padding: 20px;
+}
 .produkt img {
     width: 250px;
 }
