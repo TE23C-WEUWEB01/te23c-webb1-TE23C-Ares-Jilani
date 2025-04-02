@@ -29,6 +29,24 @@ html, body {
     grid-template-rows: auto 1fr auto;
     grid-template-columns: 100%;
 }
+
+.container ul {
+    display: flex;
+    justify-content: space-between;
+}
+.container ul li {
+    list-style-type: none;
+}
+.container ul a {
+    text-decoration: none;
+    background-color: #2f2f2f;
+    padding: 10px;
+    width: 130px;
+    display: inline-block;
+    border-radius: 3px;
+    text-align: center;
+    box-shadow: 3px 3px 0 #2a2a2a;
+}
 /* Sidhuvud */
 .container header {
     font-family: "Fugaz One", sans-serif;
@@ -37,10 +55,10 @@ html, body {
 .container header h1 {
     font-size: 80px;
 }
-.container header h1 nav {
+.container header h1 ul {
 
 }
-.container header nav a {
+.container header ul a {
     text-decoration: none;
     color: #fff;
     font-size: 25px;
@@ -59,7 +77,7 @@ html, body {
     font-family: "Roboto", sans-serif;
     padding: 50px;
 }
-.container main blockquote {
+.container main figure {
 
 }
 /* Sidfoten */
